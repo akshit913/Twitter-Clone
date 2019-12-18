@@ -1,0 +1,37 @@
+<div style = "width : 70%;margin:0 auto;">
+	<section class="phx-hero">
+	  <h1>Welcome to Twitter</h1>
+	  <input type="text" name="username" value = "Username" id = "inpf" style = "background-color:white">
+	  <div>
+		  <button type = "button" style = "width:50%" id = "regbtn"> Register </button>
+	  </div>
+	</section>
+</div>
+<div style = "width : 70%;margin:0 auto;margin-top: 10px;" id = "tweetdiv">
+	<section class="phx-hero">
+	  <h4>Tweet Something!</h4>
+	  <input type="text" name="tweet" value = "Tweet" style = "background-color : white;" id = "inptweet">
+ 	  <button type = "button" id = "btntweet"> Tweet </button>
+	</section>
+</div>
+<div style = "width : 70%;margin:0 auto;margin-top: 10px;" id ="subsdiv">
+	<section class="phx-hero">
+	  <h4>Subscribe</h4>
+	  <input type="text" name="subscribe" value = "Username" style = "background-color : white;" id = "inpsubs">
+ 	  <button type = "button" id = "btnsubs"> Subscribe </button>
+	</section>
+</div>
+<div style = "width : 70%;margin:0 auto;margin-top: 10px;" id ="mentiondiv">
+	<section class="phx-hero">
+	  <h4>@MyMentions</h4>
+	  <input type="text" name="mentions" value = "@myMentions" style = "background-color : white;" id = "inpmention">
+ 	  <button type = "button" id = "btnmention"> Search </button>
+	</section>
+</div>
+<div style = "width : 70%;margin:0 auto;margin-top: 10px;" id ="hashdiv">
+	<section class="phx-hero">
+	  <h4>#HashTag</h4>
+	  <input type="text" name="hashTag" value = "#HashTag" style = "background-color : white;" id = "inphash">
+ 	  <button type = "button" id = "btnhash"> Search </button>
+	</section>
+</div>
